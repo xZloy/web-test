@@ -39,17 +39,17 @@
     </section>
     <main>
         <section>
-            <img src="img/flor1.png" alt="Flor 1">
+            <img src="img/flor1.png" alt="Flor 1" class="section-image">
             <h2>Rosa Eterna</h2>
             <p>Esta hermosa rosa eterna es el regalo perfecto para expresar tu amor y cariño.</p>
         </section>
         <section>
-            <img src="img/flor2.jpg" alt="Flor 2">
+            <img src="img/flor2.jpg" alt="Flor 2" class="section-image">
             <h2>Lirio Blanco</h2>
             <p>El lirio blanco simboliza pureza y paz, haciendo de él un detalle encantador para cualquier ocasión.</p>
         </section>
         <section>
-            <img src="img/flor3.jpg" alt="Flor 3">
+            <img src="img/flor3.jpg" alt="Flor 3" class="section-image">
             <h2>Girasol Brillante</h2>
             <p>El girasol brillante representa la felicidad y la energía positiva, perfecto para alegrar el día de alguien especial.</p>
         </section>

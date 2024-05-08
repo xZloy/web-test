@@ -47,6 +47,11 @@ main {
 
 section {
     margin-bottom: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 section img {
@@ -62,6 +67,11 @@ section h2 {
 
 section p {
     margin-top: 5px;
+    font-size:1em;
+    opacity: 0.8;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 5px;
+    border-radius: 5px;
 }
 
 footer {
@@ -93,4 +103,14 @@ section img:hover {
     display: block; /* Para asegurar que la imagen no tenga espacios vacíos debajo de ella */
     content: fit;
 }
-
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Divide en 3 columnas iguales */
+    gap: 20px; /* Espacio entre las columnas */
+    padding: 20px;
+}
+.section-image{
+    width: 40%; /* Ocupa todo el ancho de la columna */
+    max-height: 200px; /* Altura máxima para evitar que las imágenes sean demasiado grandes */
+    object-fit: cover; /* Ajusta la imagen para llenar el espacio sin deformarla */
+}
