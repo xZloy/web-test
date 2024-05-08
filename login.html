@@ -5,17 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iniciar sesion</title>
     <link rel="stylesheet" href="registro.css">
+    <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-    <div class="box">
-        <form action="log.php" method="post">
-            <label for="mail">Correo</label>
-            <input type="mail" name="email" required> <br>
-            <label for="pswd">Contraseña</label>
-            <input type="password" name="pswd" required>
-            <button class="button">Login</button>
-        </form>
+    <div class="login">
+        <h1>Inicio de sesion</h1>
+            <h4>Coloca tus datos o registrate si aun no lo haces</h4>
+            <form action="login.php" method="post">
+                <label>Correo electrónico</label>
+                <input type="email" name="mail" required>
+                <label>Contraseña</label>
+                <input type="password" name="pswd" required>
+                <input type="submit" value="Iniciar sesion">
+            </form>
     </div>
+    <p class="p-2">No tienes cuenta? <a href="registro.html">Registrate</a></p>
     
 </body>
 </html>

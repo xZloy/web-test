@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="registro.css">
+    <link rel="stylesheet" href="estilo.css">
     <title>Registro</title>
 </head>
 <body>
-    <div class="box">
+    <div class="registro">
         <form method="post" action="registro.php">
             <h1>Registro</h1>
             <label>Usuario</label><br>
@@ -20,8 +20,10 @@
             <input type="text" id="estado_civil" name="estado_civil" required><br>
             <label>Contraseña</label><br>
             <input type="password" id="password" name="password" required><br><br>
-            <button type="submit" class="button">Registrarse</button>
+            <input type="submit" value="Registrarse">
         </form>
     </div>
+    <p class="p-2">Al dar click en registrar, aceptas nuestros <br>
+        <a href="#">Terminos y condiciones</a> Ya tienes cuenta? <a href="login.html">Login</a></p>
 </body>
 </html>
